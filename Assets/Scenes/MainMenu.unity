@@ -1097,6 +1097,7 @@ GameObject:
   - component: {fileID: 132292991}
   - component: {fileID: 132292994}
   - component: {fileID: 132292995}
+  - component: {fileID: 132292996}
   m_Layer: 5
   m_Name: ExitGameButton
   m_TagString: Untagged
@@ -1266,6 +1267,19 @@ MonoBehaviour:
             m_StringArgument: Press to play game
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &132292996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132292989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6405e0638340ab34eb3651aa45e38543, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 0}
 --- !u!1 &137090577
 GameObject:
   m_ObjectHideFlags: 0
@@ -1745,6 +1759,7 @@ GameObject:
   - component: {fileID: 192112392}
   - component: {fileID: 192112391}
   - component: {fileID: 192112394}
+  - component: {fileID: 192112395}
   m_Layer: 5
   m_Name: LevelEditorButton
   m_TagString: Untagged
@@ -1899,6 +1914,19 @@ MonoBehaviour:
             m_StringArgument: Press to play game
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &192112395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192112389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a81c891014052478ce75dccc7fa542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 0}
 --- !u!1 &193608025
 GameObject:
   m_ObjectHideFlags: 0
@@ -7979,6 +8007,7 @@ GameObject:
   - component: {fileID: 1088745138}
   - component: {fileID: 1088745137}
   - component: {fileID: 1088745136}
+  - component: {fileID: 1088745140}
   m_Layer: 5
   m_Name: BuyButton
   m_TagString: Untagged
@@ -8064,19 +8093,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1088745138}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1109777536}
-        m_TargetAssemblyTypeName: BuyCoins, Assembly-CSharp
-        m_MethodName: Buy
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 100
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1088745138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8115,6 +8132,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088745134}
   m_CullTransparentMesh: 1
+--- !u!114 &1088745140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088745134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00675faec6b004e44ab793da2b9005d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 0}
+  cost: 150
 --- !u!1 &1109777534
 GameObject:
   m_ObjectHideFlags: 0
@@ -8127,7 +8158,7 @@ GameObject:
   - component: {fileID: 1109777536}
   m_Layer: 0
   m_Name: BuyCoinsController
-  m_TagString: Untagged
+  m_TagString: BuyCoins
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11172,6 +11203,7 @@ GameObject:
   - component: {fileID: 1513651358}
   - component: {fileID: 1513651357}
   - component: {fileID: 1513651360}
+  - component: {fileID: 1513651361}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -11326,6 +11358,19 @@ MonoBehaviour:
             m_StringArgument: Press to play game
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1513651361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513651355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d41707cbbdffed47a76eaaad5627899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 0}
 --- !u!1 &1568443248
 GameObject:
   m_ObjectHideFlags: 0
